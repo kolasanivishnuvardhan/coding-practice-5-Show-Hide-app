@@ -1,0 +1,50 @@
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.btns-container {
+  display: flex;
+  flex-direction: row;
+}
+.btn {
+  color: #dd1264;
+  background-color: #ffffff;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  border-style: solid;
+  padding: 4px;
+  border-color: #ffffff;
+  margin: 10px;
+}
+
+.first-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.joe-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fddddb;
+  border-radius: 8px;
+  padding: 10px 50px 10px 50px;
+}
+.joe {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
